@@ -1,0 +1,2 @@
+# Import the dataset in R environment
+data_prova <- read.csv(url("https://raw.githubusercontent.com/SimoneArrigoni/US_pollution/master//Alaska_dataset.csv"), sep = ",", header=T)
