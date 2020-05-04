@@ -1,2 +1,5 @@
-# Import the dataset in R environment
-data_prova <- read.csv(url("https://raw.githubusercontent.com/SimoneArrigoni/US_pollution/master//Louisiana_dataset.csv"), sep = ",", header=T)
+## Import the dataset in R environment
+# Weekly
+louisiana_df <- read.csv(url("https://raw.githubusercontent.com/SimoneArrigoni/US_pollution/master//Louisiana_dataset_weekly.csv"), sep = ",", header=T)
+# Monthly
+louisiana_df <- read.csv(url("https://raw.githubusercontent.com/SimoneArrigoni/US_pollution/master//Louisiana_dataset_monthly.csv"), sep = ",", header=T)
